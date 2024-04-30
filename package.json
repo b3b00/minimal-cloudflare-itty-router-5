@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "itty-router": "^5.0.5"
+    "itty-router": "5.0.17"
   }
 }
