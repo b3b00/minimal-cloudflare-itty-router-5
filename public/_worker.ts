@@ -11,4 +11,4 @@ router.all('*',  (request:IRequest, env:any) => {
     return env.ASSETS.fetch(request.url)
 });
 
-export default { ...router } // this looks pointless, but trust us
+export default router ; 
