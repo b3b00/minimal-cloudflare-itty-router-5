@@ -1,9 +1,14 @@
 {
-    "compilerOptions": {
-  //    "outDir": "./dist",
-        "allowJs": false,
-      "target": "es6",
-      "moduleResolution": "node"
-    },
-    "include": ["./public/**/*"]
-  }
+  "compilerOptions": {
+    "allowJs": false,
+    "pretty": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "traceResolution": false,
+    "target": "esnext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+  },
+  "exclude": ["node_modules"],
+  "include": ["public/**/*"]
+}
